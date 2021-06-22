@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table list component should check snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(Home)
+    0={
+      Object {
+        "date": "2021-06-25",
+        "status": "Inactive",
+        "taskName": "Test Task",
+      }
+    }
+  >
+    <Home
+      0={
+        Object {
+          "date": "2021-06-25",
+          "status": "Inactive",
+          "taskName": "Test Task",
+        }
+      }
+      dispatch={[Function]}
+      formError=""
+      isEditTodo={false}
+      statusData={
+        Array [
+          "Inactive",
+          "Active",
+        ]
+      }
+      todo={
+        Array [
+          Object {
+            "date": "2021-06-25",
+            "status": "Inactive",
+            "taskName": "Today Task",
+          },
+        ]
+      }
+    >
+      <div
+        className="tableSetting"
+      >
+        <table
+          className="table"
+        >
+          <thead
+            className="thead-light"
+          >
+            <tr>
+              <th
+                scope="col"
+              >
+                SNO.
+              </th>
+              <th
+                scope="col"
+              >
+                Task Name
+              </th>
+              <th
+                scope="col"
+              >
+                Date
+              </th>
+              <th
+                scope="col"
+              >
+                Status
+              </th>
+              <th
+                scope="col"
+              >
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              key="0"
+            >
+              <th
+                key="0"
+                scope="row"
+              >
+                1
+              </th>
+              <td>
+                Today Task
+              </td>
+              <td>
+                2021-06-25
+              </td>
+              <td>
+                Inactive
+              </td>
+              <td>
+                <div
+                  className="btn-group"
+                >
+                  <button
+                    className="btn btn-warning mr-2"
+                    onClick={[Function]}
+                  >
+                    Edit
+                  </button>
+                  <button
+                    className="btn btn-danger mr-2"
+                    onClick={[Function]}
+                  >
+                    Delete
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </Home>
+  </Connect(Home)>
+</Provider>
+`;
